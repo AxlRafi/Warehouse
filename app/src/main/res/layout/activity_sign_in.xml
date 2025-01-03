@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/container_sign_in">
+
+    <FrameLayout
+        android:id="@+id/container_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Rectangle Background -->
+        <ImageView
+            android:id="@+id/img_rectangle"
+            android:layout_width="match_parent"
+            android:layout_height="482dp"
+            android:layout_gravity="top"
+            android:background="@drawable/img_rectangle"
+            android:scaleType="centerInside" />
+
+        <!-- Ellipse -->
+        <ImageView
+            android:id="@+id/img_ellipse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="111dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/img_ellipse"
+            android:scaleType="centerInside" />
+
+        <!-- Homebridge Icon -->
+        <ImageView
+            android:id="@+id/img_homebridge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="109dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/img_homebridge"
+            android:scaleType="centerInside" />
+
+        <!-- WAREHOUSE Text -->
+        <TextView
+            android:id="@+id/text_warehouse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="273dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="WAREHOUSE"
+            android:textColor="#FFFFFFFF"
+            android:textSize="40dp" />
+
+        <!-- Powered by Tosca -->
+        <TextView
+            android:id="@+id/text_powered_by_tosca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="325dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Powered by Tosca"
+            android:textColor="#FFFFFFFF"
+            android:textSize="13dp" />
+
+        <!-- Bottom Rectangle -->
+        <ImageView
+            android:id="@+id/img_rectangle1"
+            android:layout_width="match_parent"
+            android:layout_height="397dp"
+            android:layout_marginTop="455dp"
+            android:layout_gravity="top"
+            android:background="@drawable/img_rectangle1"
+            android:scaleType="centerInside" />
+
+        <!-- Sign In Text -->
+        <TextView
+            android:id="@+id/text_sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="498dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="44dp"
+            android:text="Sign in"
+            android:textColor="#FF000000"
+            android:textSize="24dp" />
+
+        <!-- Sign Up Link -->
+        <TextView
+            android:id="@+id/text_sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="530dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="44dp"
+            android:text="Don’t have an account? Sign Up"
+            android:textColor="#FF000000"
+            android:textSize="12dp" />
+
+        <!-- Email Input Field -->
+        <ImageView
+            android:id="@+id/img_rectangle2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="569dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_gravity="top"
+            android:background="@drawable/img_rectangle2"
+            android:scaleType="centerInside" />
+
+        <!-- Password Input Field -->
+        <ImageView
+            android:id="@+id/img_rectangle3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="628dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_gravity="top"
+            android:background="@drawable/img_rectangle3"
+            android:scaleType="centerInside" />
+
+        <!-- Email Address Text -->
+        <TextView
+            android:id="@+id/text_email_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="582dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="54dp"
+            android:text="Email Address"
+            android:textColor="#FF707070"
+            android:textSize="14dp" />
+
+        <!-- Password Text -->
+        <TextView
+            android:id="@+id/text_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="641dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="54dp"
+            android:text="Password"
+            android:textColor="#FF707070"
+            android:textSize="14dp" />
+
+        <!-- Log In Button -->
+        <FrameLayout
+            android:id="@+id/container_group"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="705dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_gravity="top"
+            android:background="@drawable/container_group">
+
+            <ImageView
+                android:id="@+id/img_rectangle4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/img_rectangle4"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/text_log_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Log in"
+                android:textColor="#FFFFFFFF"
+                android:textSize="14dp" />
+        </FrameLayout>
+
+        <!-- Forget Password -->
+        <TextView
+            android:id="@+id/text_forget_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="770dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Forget your Password?"
+            android:textColor="#FF707070"
+            android:textSize="14dp" />
+    </FrameLayout>
+</ScrollView>

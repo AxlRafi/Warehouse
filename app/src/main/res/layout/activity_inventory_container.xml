@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_inventory"
+    android:layout_width="match_parent"
+    android:layout_height="852dp"
+    android:background="@drawable/container_inventory"
+    android:gravity="center_horizontal|top"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/container_back"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:clipToPadding="false"
+        android:gravity="left|bottom"
+        android:orientation="horizontal"
+        android:paddingBottom="11dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="11dp">
+
+        <ImageView
+            android:id="@+id/image_frame_back"
+            android:layout_width="49dp"
+            android:layout_height="44dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image_frame_back" />
+
+        <TextView
+            android:id="@+id/container_frame_back"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="INVENTORY"
+            android:textColor="#FF000000"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_frame"
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/container_frame"
+        android:gravity="center_horizontal|top"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/container_frame1"
+            android:layout_width="376dp"
+            android:layout_height="116dp">
+
+            <ImageView
+                android:id="@+id/image_rectangle"
+                android:layout_width="376dp"
+                android:layout_height="116dp"
+                android:layout_gravity="top|left"
+                android:background="@drawable/image_rectangle"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:id="@+id/text_bahan_baku"
+                android:layout_width="wrap_content"
+                android:layout_height="21dp"
+                android:layout_marginLeft="21.5dp"
+                android:layout_marginTop="78dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_gravity="top|left"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="bahan baku"
+                android:textColor="#FFFFFFFF"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/text_date"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_marginLeft="241.5dp"
+                android:layout_marginTop="82.5dp"
+                android:layout_marginBottom="-0.5dp"
+                android:layout_gravity="top|left"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="2025-01-03 13:11:09"
+                android:textColor="#FFC2C2C2"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/text_beras"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="21.5dp"
+                android:layout_marginTop="21.5dp"
+                android:layout_marginBottom="-0.5dp"
+                android:layout_gravity="top|left"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Beras"
+                android:textColor="#FFFFFFFF"
+                android:textSize="24dp" />
+
+            <ImageView
+                android:id="@+id/image_rectangle1"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="317.5dp"
+                android:layout_marginTop="23dp"
+                android:layout_gravity="top|left"
+                android:background="@drawable/image_rectangle1"
+                android:scaleType="centerInside" />
+
+            <ImageView
+                android:id="@+id/image_trash"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="323.5dp"
+                android:layout_marginTop="29dp"
+                android:layout_gravity="top|left"
+                android:scaleType="centerInside"
+                android:src="@drawable/image_trash" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/container_frame2"
+            android:layout_width="376dp"
+            android:layout_height="116dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/image_rectangle2"
+                android:layout_width="376dp"
+                android:layout_height="116dp"
+                android:layout_gravity="top|left"
+                android:background="@drawable/image_rectangle2"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:id="@+id/text_dokumen_arsip"
+                android:layout_width="wrap_content"
+                android:layout_height="21dp"
+                android:layout_marginLeft="21.5dp"
+                android:layout_marginTop="78dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_gravity="top|left"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="dokumen dan arsip"
+                android:textColor="#FFFFFFFF"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/text_date1"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_marginLeft="241.5dp"
+                android:layout_marginTop="82.5dp"
+                android:layout_marginBottom="-0.5dp"
+                android:layout_gravity="top|left"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="2025-01-03 13:11:09"
+                android:textColor="#FFC2C2C2"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/text_arsip_perusahaan"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="21.5dp"
+                android:layout_marginTop="21.5dp"
+                android:layout_marginBottom="-0.5dp"
+                android:layout_gravity="top|left"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Arsip perusahaan"
+                android:textColor="#FFFFFFFF"
+                android:textSize="24dp" />
+
+            <ImageView
+                android:id="@+id/image_rectangle3"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="317.5dp"
+                android:layout_marginTop="23dp"
+                android:layout_gravity="top|left"
+                android:background="@drawable/image_rectangle3"
+                android:scaleType="centerInside" />
+
+            <ImageView
+                android:id="@+id/image_trash1"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="323.5dp"
+                android:layout_marginTop="29dp"
+                android:layout_gravity="top|left"
+                android:scaleType="centerInside"
+                android:src="@drawable/image_trash1" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/container_frame3"
+            android:layout_width="376dp"
+            android:layout_height="116dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/image_rectangle4"
+                android:layout_width="376dp"
+                android:layout_height="116dp"
+                android:layout_gravity="top|left"
+                android:background="@drawable/image_rectangle4"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:id="@+id/text_peralatan_alat_produksi"
+                android:layout_width="wrap_content"
+                android:layout_height="21dp"
+                android:layout_marginLeft="21.5dp"
+                android:layout_marginTop="78dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_gravity="top|left"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="peralatan dan alat produksi"
+                android:textColor="#FFFFFFFF"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/text_date2"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_marginLeft="241.5dp"
+                android:layout_marginTop="82.5dp"
+                android:layout_marginBottom="-0.5dp"
+                android:layout_gravity="top|left"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="2025-01-03 13:11:09"
+                android:textColor="#FFC2C2C2"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/text_mesin_jahit"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="21.5dp"
+                android:layout_marginTop="21.5dp"
+                android:layout_marginBottom="-0.5dp"
+                android:layout_gravity="top|left"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Mesin jahit"
+                android:textColor="#FFFFFFFF"
+                android:textSize="24dp" />
+
+            <ImageView
+                android:id="@+id/image_rectangle5"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="319.5dp"
+                android:layout_marginTop="23dp"
+                android:layout_gravity="top|left"
+                android:background="@drawable/image_rectangle5"
+                android:scaleType="centerInside" />
+
+            <ImageView
+                android:id="@+id/image_trash2"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="325.5dp"
+                android:layout_marginTop="29dp"
+                android:layout_gravity="top|left"
+                android:scaleType="centerInside"
+                android:src="@drawable/image_trash2" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/container_frame4"
+            android:layout_width="376dp"
+            android:layout_height="116dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/image_rectangle6"
+                android:layout_width="376dp"
+                android:layout_height="116dp"
+                android:layout_gravity="top|left"
+                android:background="@drawable/image_rectangle6"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:id="@+id/text_bahan_baku1"
+                android:layout_width="wrap_content"
+                android:layout_height="21dp"
+                android:layout_marginLeft="21.5dp"
+                android:layout_marginTop="78dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_gravity="top|left"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="bahan baku"
+                android:textColor="#FFFFFFFF"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/text_date3"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_marginLeft="241.5dp"
+                android:layout_marginTop="82.5dp"
+                android:layout_marginBottom="-0.5dp"
+                android:layout_gravity="top|left"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="2025-01-03 13:11:09"
+                android:textColor="#FFC2C2C2"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/text_kain"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="21.5dp"
+                android:layout_marginTop="21.5dp"
+                android:layout_marginBottom="-0.5dp"
+                android:layout_gravity="top|left"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="kain"
+                android:textColor="#FFFFFFFF"
+                android:textSize="24dp" />
+
+            <ImageView
+                android:id="@+id/image_rectangle7"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="318.5dp"
+                android:layout_marginTop="23dp"
+                android:layout_gravity="top|left"
+                android:background="@drawable/image_rectangle7"
+                android:scaleType="centerInside" />
+
+            <ImageView
+                android:id="@+id/image_trash3"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="324.5dp"
+                android:layout_marginTop="29dp"
+                android:layout_gravity="top|left"
+                android:scaleType="centerInside"
+                android:src="@drawable/image_trash3" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/container_frame5"
+            android:layout_width="376dp"
+            android:layout_height="116dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/image_rectangle8"
+                android:layout_width="376dp"
+                android:layout_height="116dp"
+                android:layout_gravity="top|left"
+                android:background="@drawable/image_rectangle8"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:id="@+id/text_barang_dagangan"
+                android:layout_width="wrap_content"
+                android:layout_height="21dp"
+                android:layout_marginLeft="21.5dp"
+                android:layout_marginTop="78dp"
+                android:layout_marginBottom="-1dp"
+                android:layout_gravity="top|left"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="barang dagangan"
+                android:textColor="#FFFFFFFF"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/text_date4"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_marginLeft="241.5dp"
+                android:layout_marginTop="82.5dp"
+                android:layout_marginBottom="-0.5dp"
+                android:layout_gravity="top|left"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="2025-01-03 13:11:09"
+                android:textColor="#FFC2C2C2"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/text_elektronik"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="21.5dp"
+                android:layout_marginTop="21.5dp"
+                android:layout_marginBottom="-0.5dp"
+                android:layout_gravity="top|left"
+                android:gravity="left|center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="Elektronik"
+                android:textColor="#FFFFFFFF"
+                android:textSize="24dp" />
+
+            <ImageView
+                android:id="@+id/image_rectangle9"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="319.5dp"
+                android:layout_marginTop="23dp"
+                android:layout_gravity="top|left"
+                android:background="@drawable/image_rectangle9"
+                android:scaleType="centerInside" />
+
+            <ImageView
+                android:id="@+id/image_trash4"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="325.5dp"
+                android:layout_marginTop="29dp"
+                android:layout_gravity="top|left"
+                android:scaleType="centerInside"
+                android:src="@drawable/image_trash4" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
